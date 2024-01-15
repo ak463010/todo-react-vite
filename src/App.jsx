@@ -70,7 +70,6 @@ export default function App() {
   }
 
   function closeModal() {
-    saveTodo(todoTitle, todoContent)
     setIsOpen(false);
   }
 
